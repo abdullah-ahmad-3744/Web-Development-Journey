@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 500px;
+    width: 800px;
+    background-color: rgb(181, 223, 208);
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h2 {
+    font-size: 2rem;
+    background-color: rgb(175, 175, 174);
+    padding: 1.4rem;
+    border-radius: 7px;
+}

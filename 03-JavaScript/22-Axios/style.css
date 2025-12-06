@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(53, 53, 39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.fact-box{
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    color: #fff;
+}
+.fact-button {
+    padding: 10px 20px 10px 20px;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    color: #000;
+}

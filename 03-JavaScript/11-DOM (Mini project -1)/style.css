@@ -1,0 +1,51 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 98vh;
+    width: 98vw;
+    text-align: center;
+    border: 3px solid black;
+}
+.color-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    margin-top: 50px;
+}
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 7px;
+}
+#yellow {
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#orange {
+    background-color: orange;
+}
+#black {
+    background-color: black;
+    color: white;
+}
+#red {
+    background-color: red;
+    color: white;
+}
+#blue {
+    background-color: blue;
+    color: white;
+}
+#white{
+    background-color: white;
+    color: black;
+}

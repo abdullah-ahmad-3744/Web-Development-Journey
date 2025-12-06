@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background: #000;
+    color: yellow;
+    padding: 10px 20px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 10px;
+    font-size: 35px;
+}
