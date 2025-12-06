@@ -1,0 +1,46 @@
+/* CSS Selectors */
+
+/* CSS Element Selector */
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+p {
+    color: yellow;
+    text-align: center;
+}
+/* ID selector in CSS */
+#second-container {
+    background-color: red;
+}
+#id-selector {
+    color: white;
+}
+#second-paragraph {
+    color: white;
+}
+#third-paragraph {
+    color: yellow;
+}
+
+/* Class Selector in CSS */
+.class-selector-container{
+    background-color: blue;
+}
+.class-selector {
+    color: white;
+}
+
+/* Grouping Selector In CSS */
+.css-grouping-selector {
+    background-color: white;
+}
+h2 , h4 , h5 , h6 {
+    color: red;
+}

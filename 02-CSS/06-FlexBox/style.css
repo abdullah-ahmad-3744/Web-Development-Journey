@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    border: 3px solid black;
+}
+.card {
+    height: 300px;
+    width: 300px;
+    border: 3px solid green;
+    margin: 10px;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-1 {
+    background-color: black;
+}
+#card-2{
+    background-color: green;
+}
+#card-3{
+    background-color: yellow;
+    color: black;
+}
+#card-4 {
+    background-color: blue;
+}
+.item {
+    height: 65px;
+    width: 130px;
+    border: 2px solid red;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(36, 31, 31);
+    color: #ffff;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+  display: inline-block;
+  font-weight: 900;
+  box-sizing: border-box;
+  margin: 5px;
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+h2 {
+    margin: 20px;
+}
+#box1 {
+  background-image: linear-gradient(yellow, green);
+}
+
+#box2 {
+  background-image: linear-gradient(orange, green, red);
+}
+#box3 {
+  background-image: linear-gradient(to top, orange, white);
+}
+
+#box4 {
+  background-image: linear-gradient(to right, tomato, pink);
+}
+
+#box5 {
+  background-image: linear-gradient(to left, salmon, orange);
+}
+#box6 {
+  background-image: linear-gradient(to top left, purple, blue);
+}
+#box7 {
+  background-image: linear-gradient(to bottom left, purple, blue);
+}
+#box8 {
+  background-image: linear-gradient(
+    to left top,
+    rgb(255, 0, 255),
+    rgb(161, 161, 255)
+  );
+}
+
+/*  */
+
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    display: inline-block;
+    font-weight: 900;
+    box-sizing: border-box;
+    margin: 5px;
+    color: black;
+  }
+
+  #box9 {
+    background-image: radial-gradient(yellow, #126404);
+  }
+
+  #box10{
+    background-image: radial-gradient(circle, pink, blue);
+  }
+  #box11{
+    background: radial-gradient(
+      circle at 100%,
+      #333,
+      #333 50%,
+      #eee 75%,
+      #333 75%
+    );
+  }
+
+  #box12 {
+    background-image: radial-gradient(ellipse, #30abc2, #0fd31f);
+  }
+
+  #box13 {
+    background-image: radial-gradient(ellipse,yellow 10%,red 20%,blue 40%,pink 50%);
+  }

@@ -1,0 +1,176 @@
+/* CSS Variables */
+:root {
+    --primary-color: #007BFF; /* Blue */
+    --secondary-color: #6C757D; /* Gray */
+    --accent-color: #28A745; /* Green */
+    --bg-color: #F8F9FA; /* Light Gray */
+    --white: #fff;
+    --dark: #343A40; /* Dark Gray */
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Helvetica Neue', sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 2rem;
+    --font-size-paragraph: 1rem;
+    --button-padding: 15px 30px;
+    --transition-speed: 0.3s;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --max-width: 1200px;
+    --spacing: 20px;
+  }
+  
+  /* Global Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: var(--body-font);
+    background-color: var(--bg-color);
+    color: var(--dark);
+    line-height: 1.6;
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Class for Centering Content */
+  .container {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing);
+  }
+  
+
+  /* Header Styling */
+header {
+    background-color: var(--primary-color); /* Blue background */
+    color: var(--white);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Ensure the header spans the entire width */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Inner padding for the container */
+  }
+  
+  header .logo h1 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Spacing between menu items */
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transition effects for hover */
+  }
+  
+  header nav ul li a:hover {
+    color: var(--accent-color); /* Green color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  header nav ul li a.active {
+    color: var(--accent-color); /* Highlight the active link */
+  }
+  
+  
+  /* Service Details Section */
+  .service-details {
+    padding: 60px 0;
+    background-color: var(--white);
+    text-align: center;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .service-details h2 {
+    font-size: var(--font-size-heading);
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .service-details p {
+    font-size: var(--font-size-paragraph);
+    color: var(--dark);
+    margin-bottom: 30px;
+  }
+  
+  .service-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .service-details ul li {
+    font-size: var(--font-size-paragraph);
+    margin: 10px 0;
+    color: var(--dark);
+    font-weight: 600;
+  }
+  
+  .service-details button.cta-button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: var(--button-padding);
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .service-details button.cta-button:hover {
+    background-color: #218838;
+    transform: translateY(-5px);
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: var(--font-size-paragraph);
+  }
+  

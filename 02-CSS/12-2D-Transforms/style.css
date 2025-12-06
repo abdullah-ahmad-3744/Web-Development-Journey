@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: rgb(26, 24, 24);
+    color: #ffff;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 250px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid yellow;
+  }
+  
+  /* Box 1: Translate */
+  .box1:hover {
+    transform: translate(50px, 50px);
+  }
+  
+  /* Box 2: Rotate */
+  .box2:hover {
+    transform: rotate(45deg);
+  }
+  
+  /* Box 3: Scale */
+  .box3:hover {
+    transform: scale(1.5);
+  }
+  
+  /* Box 4: Skew */
+  .box4:hover {
+    transform: skew(20deg, 10deg);
+  }
+  
+  /* Box 5: Matrix */
+  .box5:hover {
+    transform: matrix(1, 0.5, -0.5, 1, 30, 30);
+  }
+  

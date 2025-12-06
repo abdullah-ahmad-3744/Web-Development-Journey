@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(51, 47, 47);
+  color: white;
+}
+h1 {
+    text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Box 1: Transition on background color */
+.box1 {
+  background-color: #3498db;
+  transition: background-color 0.3s ease-in-out;
+}
+.box1:hover {
+  background-color: #2ecc71;
+}
+
+/* Box 2: Transition with delay */
+.box2 {
+  background-color: #e74c3c;
+  transition: transform 0.5s ease-in-out 0.3s;
+}
+.box2:hover {
+  transform: rotate(45deg);
+}
+
+/* Box 3: Transition on width */
+.box3 {
+  background-color: #9b59b6;
+  transition: width 0.5s ease-in-out;
+}
+.box3:hover {
+  width: 150px;
+}
+
+/* Box 4: Transition on specific property */
+.box4 {
+  background-color: #f1c40f;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.box4:hover {
+  transform: scale(1.5);
+}
+
+/* Box 5: Transition with timing function */
+.box5 {
+  background-color: #1abc9c;
+  transition: all 0.5s linear;
+}
+.box5:hover {
+  transform: translateY(-20px);
+  background-color: #16a085;
+}
