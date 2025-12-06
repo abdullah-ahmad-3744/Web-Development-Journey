@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms in HTML</h1>
+    <form>
+      <div>
+        <label> First Name : </label>
+        <input type="text" maxlength="20" />
+      </div>
+
+      <br>
+
+      <div>
+        <label> Last Name : </label>
+        <input type="text" />
+      </div>
+
+      <br>
+
+      <div>
+        <label> Email : </label>
+        <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+      </div>
+
+      <br>
+        <label> Read only input : </label>
+        <input type="text" placeholder="You can only read this input and you can not chnage it" readonly />
+      <br>
+      <br>
+      <div>
+        <label> Password : </label>
+        <input type="password" />
+      </div>
+      <br>
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+      
+      <br>
+      <br>
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label>
+  
+  <br>
+  <br>
+        <label> Disable button : </label>
+        <button type="button" disabled>Disabled</button>
+      <br>
+      <br>
+
+      <button>Submit Form</button type="Reset"> <button>Reset Form</button>
+    </form>
+  </body>
+</html>
