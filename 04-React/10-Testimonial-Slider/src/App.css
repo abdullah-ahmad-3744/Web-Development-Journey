@@ -1,0 +1,67 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Main Container */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+/* Heading */
+.heading h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+
+/* Decorative underline */
+.underlines {
+  width: 180px;
+  height: 4px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border-radius: 2px;
+  margin-bottom: 60px;
+}
+
+/* Responsive adjustments for heading */
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .underlines {
+    width: 140px;
+    height: 3px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading h1 {
+    font-size: 1.7rem;
+  }
+
+  .underlines {
+    width: 120px;
+    height: 3px;
+    margin-bottom: 40px;
+  }
+}

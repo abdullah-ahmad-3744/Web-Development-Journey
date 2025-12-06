@@ -1,0 +1,16 @@
+/* Global styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f6fa;
+  color: #2c3e50;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}

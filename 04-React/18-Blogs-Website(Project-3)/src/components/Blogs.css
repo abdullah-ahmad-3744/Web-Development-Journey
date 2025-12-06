@@ -1,0 +1,12 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+/* Empty state */
+.blogs h3 {
+  text-align: center;
+  color: var(--text-soft);
+  margin-top: 40px;
+}

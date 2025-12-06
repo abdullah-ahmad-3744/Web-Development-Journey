@@ -1,0 +1,12 @@
+.testimonial-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+/* Action Buttons inside cards handled in Card.css */

@@ -1,0 +1,27 @@
+/* Main Container */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f1620; /* Premium dark */
+  color: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+
+/* Heading */
+.main-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: #f1f1f1;
+  border-bottom: 2px solid #374151;
+  padding-bottom: 10px;
+}
